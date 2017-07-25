@@ -1,0 +1,91 @@
+.browser-mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  _position: absolute;
+  _top: expression(eval(document.documentElement.scrollTop) + 'px');
+  _left: expression(eval(document.documentElement.scrollLeft) + 'px');
+  _right: auto;
+  _bottom: auto;
+  _width: expression(eval(document.documentElement.clientWidth) + 'px');
+  _height: expression(eval(document.documentElement.clientHeight) + 'px');
+
+  background: rgba(0,0,0,0.5);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CC000000', endColorstr='#CC000000',GradientType=0);
+  font: 12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+  color: #666;
+}
+.browser-mask a {
+  color: #09F;
+  text-decoration: none;
+}
+.browser-mask a:hover {
+  color: #F90;
+}
+.browser-dialog {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-left: -340px;
+  width: 600px;
+  padding: 40px;
+  background: #FAFAFA;
+}
+.browser-title {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+.browser-para {
+  padding: 0;
+  margin: 15px 0;
+  zoom: 1;
+}
+.browser-para:after {
+  content: ' ';
+  display: block;
+  clear: both;
+  font-size: 0;
+}
+a.browser-link {
+  float: left;
+  width: 120px;
+  text-align: center;
+  padding: 12px;
+  color: #666;
+}
+a.browser-link:hover {
+  background: #EEE;
+}
+.browser-icon {
+  display: block;
+  margin-bottom: 5px;
+  font-style: normal;
+  width: 125px;
+  height: 135px;
+  cursor: pointer;
+}
+.browser-btn-ctnr {
+  text-align: right;
+}
+a.browser-btn {
+  zoom: 1;
+  height: 30px;
+  line-height: 30px;
+  color: #FFF;
+  background: #F90;
+  font-size: 15px;
+  padding: 0 15px;
+  display: inline-block;
+  color: #FFF;
+}
+a.browser-btn:hover {
+  color: #FFF;
+}
+a.browser-btn-cancel {
+  background: #AAB;
+}
