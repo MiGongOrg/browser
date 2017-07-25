@@ -54,7 +54,7 @@
       break;
     }
   }
-  option.cssPath = option.cssPath;
+  option.cssPath = script_path + option.cssPath;
 
   cssNode.addEventListener('load', function(){
     var 
