@@ -51,24 +51,6 @@
   clear: both;
   font-size: 0;
 }
-a.browser-link {
-  float: left;
-  width: 120px;
-  text-align: center;
-  padding: 12px;
-  color: #666;
-}
-a.browser-link:hover {
-  background: #EEE;
-}
-.browser-icon {
-  display: block;
-  margin-bottom: 5px;
-  font-style: normal;
-  width: 125px;
-  height: 135px;
-  cursor: pointer;
-}
 .browser-btn-ctnr {
   text-align: right;
 }

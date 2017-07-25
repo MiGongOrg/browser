@@ -84,7 +84,6 @@
       }
       divNode.style.display = 'none';
     });
-    document.cookie = 'not_remind=1';
   });
 
   cssNode.setAttribute('rel' , 'stylesheet');
