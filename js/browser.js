@@ -2,6 +2,8 @@
 
   if (/not_remind=1/.test(document.cookie)) {
     return;
+  } else if (window.navigator.userAgent.indexOf('Chrome') !== -1) {
+    return;
   }
 
   var html = [
