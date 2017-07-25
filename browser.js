@@ -37,7 +37,7 @@
       cust_option = window.anti_ie_config || {},
       script_path = '',
       option = {
-        cssPath: 'css/',
+        cssPath: '',
         html: html
       },
       key, i, match;
