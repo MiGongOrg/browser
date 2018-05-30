@@ -1,28 +1,28 @@
-# OIFI 云端解析 微信小程序 SDK
+# README
 
 ## 这是一个测试，你看到的一切都是幻觉
 
-#### 安装
+### 安装
 
-```sh
+```bash
 # 使用 NPM 管理 OIFI SDK
 npm install sound-oifi
 ```
 
-###### 引入
+#### 引入
 
 ```javascript
 // 将 sound-oifi.js 直接放到微信小程序的项目中，使用 commonjs 引入
 var OIFI = require('sound-oifi')
 ```
 
-###### WePy
+#### WePy
 
 ```javascript
 import OIFI from 'sound-oifi'
 ```
 
-#### 初始化
+### 初始化
 
 ```javascript
 var oifi = new OIFI({
@@ -37,7 +37,7 @@ var oifi = new OIFI({
 })
 ```
 
-#### 开启解析
+### 开启解析
 
 > 开启录音，与云端建立通讯，音频流实时上传到云端解析
 
@@ -45,10 +45,11 @@ var oifi = new OIFI({
 oifi.startListen()
 ```
 
-#### 停止解析
+### 停止解析
 
 > 停止录音，断开与云端建立的连接
 
 ```javascript
 oifi.stopListen()
 ```
+
